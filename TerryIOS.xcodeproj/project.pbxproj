@@ -16,6 +16,7 @@
 		DEA6AE981D8430070021E647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA6AE961D8430070021E647 /* LaunchScreen.storyboard */; };
 		DEA6AEA31D8430070021E647 /* TerryIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6AEA21D8430070021E647 /* TerryIOSTests.swift */; };
 		DEA6AEAE1D8430070021E647 /* TerryIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6AEAD1D8430070021E647 /* TerryIOSUITests.swift */; };
+		DEA6AEBC1D8437ED0021E647 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEA6AEBB1D8437ED0021E647 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		DEA6AEA91D8430070021E647 /* TerryIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerryIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEA6AEAD1D8430070021E647 /* TerryIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerryIOSUITests.swift; sourceTree = "<group>"; };
 		DEA6AEAF1D8430070021E647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA6AEBB1D8437ED0021E647 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		DEA6AE7D1D8430070021E647 = {
 			isa = PBXGroup;
 			children = (
+				DEA6AEBB1D8437ED0021E647 /* Default-568h@2x.png */,
 				DEA6AE881D8430070021E647 /* TerryIOS */,
 				DEA6AEA11D8430070021E647 /* TerryIOSTests */,
 				DEA6AEAC1D8430070021E647 /* TerryIOSUITests */,
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEA6AE981D8430070021E647 /* LaunchScreen.storyboard in Resources */,
+				DEA6AEBC1D8437ED0021E647 /* Default-568h@2x.png in Resources */,
 				DEA6AE951D8430070021E647 /* Assets.xcassets in Resources */,
 				DEA6AE931D8430070021E647 /* Main.storyboard in Resources */,
 			);
