@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA6AE8A1D8430070021E647 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6AE891D8430070021E647 /* AppDelegate.swift */; };
+		DEA6AE8C1D8430070021E647 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6AE8B1D8430070021E647 /* RootViewController.swift */; };
+		DEA6AE8E1D8430070021E647 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6AE8D1D8430070021E647 /* DataViewController.swift */; };
+		DEA6AE901D8430070021E647 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6AE8F1D8430070021E647 /* ModelController.swift */; };
+		DEA6AE931D8430070021E647 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA6AE911D8430070021E647 /* Main.storyboard */; };
+		DEA6AE951D8430070021E647 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEA6AE941D8430070021E647 /* Assets.xcassets */; };
+		DEA6AE981D8430070021E647 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEA6AE961D8430070021E647 /* LaunchScreen.storyboard */; };
+		DEA6AEA31D8430070021E647 /* TerryIOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6AEA21D8430070021E647 /* TerryIOSTests.swift */; };
+		DEA6AEAE1D8430070021E647 /* TerryIOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEA6AEAD1D8430070021E647 /* TerryIOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEA6AE9F1D8430070021E647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA6AE7E1D8430070021E647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA6AE851D8430070021E647;
+			remoteInfo = TerryIOS;
+		};
+		DEA6AEAA1D8430070021E647 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEA6AE7E1D8430070021E647 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEA6AE851D8430070021E647;
+			remoteInfo = TerryIOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DEA6AE861D8430070021E647 /* TerryIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TerryIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA6AE891D8430070021E647 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DEA6AE8B1D8430070021E647 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DEA6AE8D1D8430070021E647 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		DEA6AE8F1D8430070021E647 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		DEA6AE921D8430070021E647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEA6AE941D8430070021E647 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DEA6AE971D8430070021E647 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DEA6AE991D8430070021E647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA6AE9E1D8430070021E647 /* TerryIOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerryIOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA6AEA21D8430070021E647 /* TerryIOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerryIOSTests.swift; sourceTree = "<group>"; };
+		DEA6AEA41D8430070021E647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEA6AEA91D8430070021E647 /* TerryIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerryIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEA6AEAD1D8430070021E647 /* TerryIOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerryIOSUITests.swift; sourceTree = "<group>"; };
+		DEA6AEAF1D8430070021E647 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEA6AE831D8430070021E647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6AE9B1D8430070021E647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6AEA61D8430070021E647 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEA6AE7D1D8430070021E647 = {
+			isa = PBXGroup;
+			children = (
+				DEA6AE881D8430070021E647 /* TerryIOS */,
+				DEA6AEA11D8430070021E647 /* TerryIOSTests */,
+				DEA6AEAC1D8430070021E647 /* TerryIOSUITests */,
+				DEA6AE871D8430070021E647 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEA6AE871D8430070021E647 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6AE861D8430070021E647 /* TerryIOS.app */,
+				DEA6AE9E1D8430070021E647 /* TerryIOSTests.xctest */,
+				DEA6AEA91D8430070021E647 /* TerryIOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEA6AE881D8430070021E647 /* TerryIOS */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6AE891D8430070021E647 /* AppDelegate.swift */,
+				DEA6AE8B1D8430070021E647 /* RootViewController.swift */,
+				DEA6AE8D1D8430070021E647 /* DataViewController.swift */,
+				DEA6AE8F1D8430070021E647 /* ModelController.swift */,
+				DEA6AE911D8430070021E647 /* Main.storyboard */,
+				DEA6AE941D8430070021E647 /* Assets.xcassets */,
+				DEA6AE961D8430070021E647 /* LaunchScreen.storyboard */,
+				DEA6AE991D8430070021E647 /* Info.plist */,
+			);
+			path = TerryIOS;
+			sourceTree = "<group>";
+		};
+		DEA6AEA11D8430070021E647 /* TerryIOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6AEA21D8430070021E647 /* TerryIOSTests.swift */,
+				DEA6AEA41D8430070021E647 /* Info.plist */,
+			);
+			path = TerryIOSTests;
+			sourceTree = "<group>";
+		};
+		DEA6AEAC1D8430070021E647 /* TerryIOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DEA6AEAD1D8430070021E647 /* TerryIOSUITests.swift */,
+				DEA6AEAF1D8430070021E647 /* Info.plist */,
+			);
+			path = TerryIOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEA6AE851D8430070021E647 /* TerryIOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA6AEB21D8430070021E647 /* Build configuration list for PBXNativeTarget "TerryIOS" */;
+			buildPhases = (
+				DEA6AE821D8430070021E647 /* Sources */,
+				DEA6AE831D8430070021E647 /* Frameworks */,
+				DEA6AE841D8430070021E647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TerryIOS;
+			productName = TerryIOS;
+			productReference = DEA6AE861D8430070021E647 /* TerryIOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEA6AE9D1D8430070021E647 /* TerryIOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA6AEB51D8430070021E647 /* Build configuration list for PBXNativeTarget "TerryIOSTests" */;
+			buildPhases = (
+				DEA6AE9A1D8430070021E647 /* Sources */,
+				DEA6AE9B1D8430070021E647 /* Frameworks */,
+				DEA6AE9C1D8430070021E647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA6AEA01D8430070021E647 /* PBXTargetDependency */,
+			);
+			name = TerryIOSTests;
+			productName = TerryIOSTests;
+			productReference = DEA6AE9E1D8430070021E647 /* TerryIOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEA6AEA81D8430070021E647 /* TerryIOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEA6AEB81D8430070021E647 /* Build configuration list for PBXNativeTarget "TerryIOSUITests" */;
+			buildPhases = (
+				DEA6AEA51D8430070021E647 /* Sources */,
+				DEA6AEA61D8430070021E647 /* Frameworks */,
+				DEA6AEA71D8430070021E647 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEA6AEAB1D8430070021E647 /* PBXTargetDependency */,
+			);
+			name = TerryIOSUITests;
+			productName = TerryIOSUITests;
+			productReference = DEA6AEA91D8430070021E647 /* TerryIOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEA6AE7E1D8430070021E647 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "夏晖";
+				TargetAttributes = {
+					DEA6AE851D8430070021E647 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					DEA6AE9D1D8430070021E647 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DEA6AE851D8430070021E647;
+					};
+					DEA6AEA81D8430070021E647 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = DEA6AE851D8430070021E647;
+					};
+				};
+			};
+			buildConfigurationList = DEA6AE811D8430070021E647 /* Build configuration list for PBXProject "TerryIOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEA6AE7D1D8430070021E647;
+			productRefGroup = DEA6AE871D8430070021E647 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEA6AE851D8430070021E647 /* TerryIOS */,
+				DEA6AE9D1D8430070021E647 /* TerryIOSTests */,
+				DEA6AEA81D8430070021E647 /* TerryIOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEA6AE841D8430070021E647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6AE981D8430070021E647 /* LaunchScreen.storyboard in Resources */,
+				DEA6AE951D8430070021E647 /* Assets.xcassets in Resources */,
+				DEA6AE931D8430070021E647 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6AE9C1D8430070021E647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6AEA71D8430070021E647 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEA6AE821D8430070021E647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6AE8C1D8430070021E647 /* RootViewController.swift in Sources */,
+				DEA6AE901D8430070021E647 /* ModelController.swift in Sources */,
+				DEA6AE8E1D8430070021E647 /* DataViewController.swift in Sources */,
+				DEA6AE8A1D8430070021E647 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6AE9A1D8430070021E647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6AEA31D8430070021E647 /* TerryIOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEA6AEA51D8430070021E647 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA6AEAE1D8430070021E647 /* TerryIOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEA6AEA01D8430070021E647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA6AE851D8430070021E647 /* TerryIOS */;
+			targetProxy = DEA6AE9F1D8430070021E647 /* PBXContainerItemProxy */;
+		};
+		DEA6AEAB1D8430070021E647 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEA6AE851D8430070021E647 /* TerryIOS */;
+			targetProxy = DEA6AEAA1D8430070021E647 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEA6AE911D8430070021E647 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA6AE921D8430070021E647 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEA6AE961D8430070021E647 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEA6AE971D8430070021E647 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEA6AEB01D8430070021E647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DEA6AEB11D8430070021E647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEA6AEB31D8430070021E647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TerryIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Terry-s-page.TerryIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEA6AEB41D8430070021E647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TerryIOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Terry-s-page.TerryIOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEA6AEB61D8430070021E647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TerryIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Terry-s-page.TerryIOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerryIOS.app/TerryIOS";
+			};
+			name = Debug;
+		};
+		DEA6AEB71D8430070021E647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TerryIOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Terry-s-page.TerryIOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TerryIOS.app/TerryIOS";
+			};
+			name = Release;
+		};
+		DEA6AEB91D8430070021E647 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TerryIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Terry-s-page.TerryIOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TerryIOS;
+			};
+			name = Debug;
+		};
+		DEA6AEBA1D8430070021E647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TerryIOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Terry-s-page.TerryIOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TerryIOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEA6AE811D8430070021E647 /* Build configuration list for PBXProject "TerryIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6AEB01D8430070021E647 /* Debug */,
+				DEA6AEB11D8430070021E647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEA6AEB21D8430070021E647 /* Build configuration list for PBXNativeTarget "TerryIOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6AEB31D8430070021E647 /* Debug */,
+				DEA6AEB41D8430070021E647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEA6AEB51D8430070021E647 /* Build configuration list for PBXNativeTarget "TerryIOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6AEB61D8430070021E647 /* Debug */,
+				DEA6AEB71D8430070021E647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEA6AEB81D8430070021E647 /* Build configuration list for PBXNativeTarget "TerryIOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEA6AEB91D8430070021E647 /* Debug */,
+				DEA6AEBA1D8430070021E647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEA6AE7E1D8430070021E647 /* Project object */;
+}
